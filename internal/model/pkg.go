@@ -2,7 +2,7 @@ package model
 
 import (
 	"github.com/konveyor/tackle2-hub/internal/migration/json"
-	"github.com/konveyor/tackle2-hub/internal/migration/v21/model"
+	"github.com/konveyor/tackle2-hub/internal/migration/v22/model"
 )
 
 // Field (data) types.
@@ -12,6 +12,9 @@ var ALL = model.All()
 
 // Models
 type Model = model.Model
+type Agent = model.Agent
+type AgentPlan = model.AgentPlan
+type AgentRecipe = model.AgentRecipe
 type Application = model.Application
 type Archetype = model.Archetype
 type Assessment = model.Assessment

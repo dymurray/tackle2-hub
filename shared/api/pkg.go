@@ -52,6 +52,16 @@ const (
 	AddonRoute  = AddonsRoute + "/:" + Name
 )
 
+// Routes - Agents
+const (
+	AgentsRoute       = "/agents"
+	AgentRoute        = AgentsRoute + "/:" + ID
+	AgentPlansRoute   = "/agent-plans"
+	AgentPlanRoute    = AgentPlansRoute + "/:" + ID
+	AgentRecipesRoute = "/agent-recipes"
+	AgentRecipeRoute  = AgentRecipesRoute + "/:" + ID
+)
+
 // Routes - Adoption Plans
 const (
 	AdoptionPlansRoute = "/reports/adoptionplan"

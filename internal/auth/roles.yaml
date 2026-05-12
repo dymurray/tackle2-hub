@@ -9,6 +9,24 @@
     - name: adoptionplans
       verbs:
         - post
+    - name: agents
+      verbs:
+        - delete
+        - get
+        - post
+        - put
+    - name: agentplans
+      verbs:
+        - delete
+        - get
+        - post
+        - put
+    - name: agentrecipes
+      verbs:
+        - delete
+        - get
+        - post
+        - put
     - name: analysis.profiles
       verbs:
         - delete
@@ -257,6 +275,24 @@
     - name: adoptionplans
       verbs:
         - post
+    - name: agents
+      verbs:
+        - delete
+        - get
+        - post
+        - put
+    - name: agentplans
+      verbs:
+        - delete
+        - get
+        - post
+        - put
+    - name: agentrecipes
+      verbs:
+        - delete
+        - get
+        - post
+        - put
     - name: analysis.profiles
       verbs:
         - delete
@@ -483,6 +519,15 @@
     - name: adoptionplans
       verbs:
         - post
+    - name: agents
+      verbs:
+        - get
+    - name: agentplans
+      verbs:
+        - get
+    - name: agentrecipes
+      verbs:
+        - get
     - name: analysis.profiles
       verbs:
         - get
@@ -625,6 +670,15 @@
     - name: adoptionplans
       verbs:
         - post
+    - name: agents
+      verbs:
+        - get
+    - name: agentplans
+      verbs:
+        - get
+    - name: agentrecipes
+      verbs:
+        - get
     - name: analysis.profiles
       verbs:
         - get
